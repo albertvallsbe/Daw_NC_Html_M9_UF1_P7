@@ -1,0 +1,22 @@
+header,
+footer {
+    background-color: var(--gris-mig);
+}
+
+body {
+    background-color: var(--blanc-sol);
+    font-size: 100%;
+}
+
+.principal {}
+
+.principal section {
+    float: left;
+    padding: 15px;
+    max-width: 31.33%;
+    height: 150px;
+}
+
+footer {
+    clear: both;
+}
