@@ -1,3 +1,7 @@
+#Ignorar arxius *.zip i *.rar
+*.rar
+*.zip
+
 # Logs
 logs
 *.log

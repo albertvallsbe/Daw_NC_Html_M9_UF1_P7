@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	margin: 1%;
+	padding:1%;
+	background-color: #ffffff;
+	font-size: 100%;
+}
+
+header, footer{
+  background-color:#0066FF;
+  padding: 1%;
+  margin: 1%;
+  text-align: center;
+} 
+
+header h1{
+}
+
+section{
+  margin:1%;
+  padding:1%;
+  background-color: #e1e1e5;
+}
+
+nav a{
+
+}
+
+.activa{
+}
+  
+footer {
+  font-size: 1.15em;
+}
+
+@media (min-width: 600px) {
+
+}
