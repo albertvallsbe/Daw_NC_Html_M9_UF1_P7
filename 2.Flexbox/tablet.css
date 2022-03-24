@@ -8,10 +8,11 @@ body {
     font-size: 100%;
 }
 
-.principal {}
+.principal {
+    display: flex;
+}
 
 .principal section {
-    float: left;
     padding: 15px;
     max-width: 31.33%;
     min-height: 100%;

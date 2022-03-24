@@ -1,0 +1,35 @@
+    header,
+    footer {
+        background-color: var(--gris-mig);
+    }
+    
+    header {
+        grid-area: header;
+    }
+    
+    .left {
+        grid-area: texts;
+    }
+    
+    body {
+        background-color: var(--blanc-sol);
+        font-size: 100%;
+        display: grid;
+        grid-template-areas: "header header header " "texts texts texts " "principal principal principal " "foot foot foot";
+    }
+    
+    .principal {
+        grid-area: principal;
+        display: flex;
+    }
+    
+    .principal section {
+        padding: 15px;
+        max-width: 31.33%;
+        min-height: 100%;
+    }
+    
+    footer {
+        clear: both;
+        grid-area: foot;
+    }
